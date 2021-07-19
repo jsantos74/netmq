@@ -284,7 +284,17 @@ namespace NetMQ.Core
         /// If peer is acting as server for PLAIN or CURVE mechanisms
         /// </summary>
         public bool AsServer { get; set; }
-        
+
+        /// <summary>
+        /// Security credentials for PLAIN mechanism
+        /// </summary>
+        public string PlainUsername { get; set; }
+
+        /// <summary>
+        /// Security credentials for PLAIN mechanism
+        /// </summary>
+        public string PlainPassword { get; set; }
+
         /// <summary>
         /// Security credentials for CURVE mechanism
         /// </summary>
